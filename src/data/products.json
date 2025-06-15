@@ -1,0 +1,201 @@
+{
+    "deals": [
+        {
+            "id": "deal-001",
+            "title": "Assurance Auto Premium",
+            "provider": "NSIA Assurances",
+            "country": "CI",
+            "countryName": "Côte d'Ivoire",
+            "sector": "insurance",
+            "sectorName": "Assurance",
+            "originalPrice": 180000,
+            "discountedPrice": 126000,
+            "discountPercentage": 30,
+            "currency": "XOF",
+            "currencySymbol": "CFA",
+            "description": "Assurance auto tous risques avec assistance 24h/7j et réparation garantie en réseau agréé.",
+            "features": [
+                "Couverture tous risques",
+                "Assistance 24h/7j",
+                "Réparation en réseau agréé",
+                "Franchise réduite à 50 000 CFA"
+            ],
+            "validUntil": "2024-12-31",
+            "isLimitedTime": true,
+            "badge": "Offre limitée",
+            "rating": 4.8,
+            "reviewsCount": 1247,
+            "image": "/images/deals/nsia-auto.jpg",
+            "providerLogo": "/images/providers/nsia.png"
+        },
+        {
+            "id": "deal-002",
+            "title": "Compte Épargne Plus",
+            "provider": "Ecobank",
+            "country": "GH",
+            "countryName": "Ghana",
+            "sector": "banking",
+            "sectorName": "Banque",
+            "originalPrice": null,
+            "discountedPrice": null,
+            "discountPercentage": null,
+            "interestRate": 8.5,
+            "currency": "GHS",
+            "currencySymbol": "₵",
+            "description": "Compte épargne avec taux d'intérêt exceptionnel de 8,5% par an et frais de tenue de compte gratuits.",
+            "features": [
+                "Taux d'intérêt 8,5% par an",
+                "Frais de tenue gratuits",
+                "Carte de débit incluse",
+                "Mobile banking gratuit"
+            ],
+            "validUntil": "2024-11-30",
+            "isLimitedTime": true,
+            "badge": "Taux exceptionnel",
+            "rating": 4.6,
+            "reviewsCount": 892,
+            "image": "/images/deals/ecobank-savings.jpg",
+            "providerLogo": "/images/providers/ecobank.png"
+        },
+        {
+            "id": "deal-003",
+            "title": "Forfait Mobile Illimité",
+            "provider": "MTN",
+            "country": "NG",
+            "countryName": "Nigeria",
+            "sector": "telecom",
+            "sectorName": "Télécoms",
+            "originalPrice": 8000,
+            "discountedPrice": 4800,
+            "discountPercentage": 40,
+            "currency": "NGN",
+            "currencySymbol": "₦",
+            "description": "Forfait mobile avec appels illimités, 50GB de data 4G et SMS illimités vers tous les réseaux.",
+            "features": [
+                "Appels illimités",
+                "50GB de data 4G",
+                "SMS illimités",
+                "Roaming gratuit en Afrique de l'Ouest"
+            ],
+            "validUntil": "2024-12-15",
+            "isLimitedTime": true,
+            "badge": "40% de réduction",
+            "rating": 4.7,
+            "reviewsCount": 2156,
+            "image": "/images/deals/mtn-mobile.jpg",
+            "providerLogo": "/images/providers/mtn.png"
+        },
+        {
+            "id": "deal-004",
+            "title": "Kit Solaire Résidentiel",
+            "provider": "SolarNow",
+            "country": "KE",
+            "countryName": "Kenya",
+            "sector": "energy",
+            "sectorName": "Énergie",
+            "originalPrice": 150000,
+            "discountedPrice": 105000,
+            "discountPercentage": 30,
+            "currency": "KES",
+            "currencySymbol": "KSh",
+            "description": "Kit solaire complet 3kW avec batteries, onduleur et installation incluse. Autonomie 3 jours.",
+            "features": [
+                "Panneaux solaires 3kW",
+                "Batteries lithium 10kWh",
+                "Onduleur hybride",
+                "Installation et garantie 5 ans"
+            ],
+            "validUntil": "2024-12-31",
+            "isLimitedTime": true,
+            "badge": "Installation gratuite",
+            "rating": 4.9,
+            "reviewsCount": 567,
+            "image": "/images/deals/solar-kit.jpg",
+            "providerLogo": "/images/providers/solarnow.png"
+        },
+        {
+            "id": "deal-005",
+            "title": "Assurance Santé Famille",
+            "provider": "Saham Assurance",
+            "country": "MA",
+            "countryName": "Maroc",
+            "sector": "insurance",
+            "sectorName": "Assurance",
+            "originalPrice": 24000,
+            "discountedPrice": 16800,
+            "discountPercentage": 30,
+            "currency": "MAD",
+            "currencySymbol": "د.م.",
+            "description": "Assurance santé familiale couvrant jusqu'à 6 personnes avec remboursement jusqu'à 80%.",
+            "features": [
+                "Couverture famille (6 personnes max)",
+                "Remboursement jusqu'à 80%",
+                "Réseau de 500+ cliniques",
+                "Téléconsultation incluse"
+            ],
+            "validUntil": "2024-11-25",
+            "isLimitedTime": true,
+            "badge": "Famille nombreuse",
+            "rating": 4.5,
+            "reviewsCount": 743,
+            "image": "/images/deals/saham-health.jpg",
+            "providerLogo": "/images/providers/saham.png"
+        },
+        {
+            "id": "deal-006",
+            "title": "Crédit Auto Rapide",
+            "provider": "Standard Bank",
+            "country": "ZA",
+            "countryName": "Afrique du Sud",
+            "sector": "banking",
+            "sectorName": "Banque",
+            "originalPrice": null,
+            "discountedPrice": null,
+            "discountPercentage": null,
+            "interestRate": 9.5,
+            "currency": "ZAR",
+            "currencySymbol": "R",
+            "description": "Crédit automobile avec taux préférentiel de 9,5% et approbation en 24h maximum.",
+            "features": [
+                "Taux préférentiel 9,5%",
+                "Approbation en 24h",
+                "Financement jusqu'à 100%",
+                "Assurance crédit incluse"
+            ],
+            "validUntil": "2024-12-20",
+            "isLimitedTime": true,
+            "badge": "Approbation rapide",
+            "rating": 4.4,
+            "reviewsCount": 1089,
+            "image": "/images/deals/standard-auto-loan.jpg",
+            "providerLogo": "/images/providers/standard-bank.png"
+        }
+    ],
+    "featuredDeals": ["deal-001", "deal-003", "deal-004"],
+    "categories": [
+        {
+            "id": "insurance",
+            "name": "Assurance",
+            "icon": "shield",
+            "color": "blue"
+        },
+        {
+            "id": "banking",
+            "name": "Banque",
+            "icon": "building",
+            "color": "green"
+        },
+        {
+            "id": "telecom",
+            "name": "Télécoms",
+            "icon": "phone",
+            "color": "purple"
+        },
+        {
+            "id": "energy",
+            "name": "Énergie",
+            "icon": "zap",
+            "color": "yellow"
+        }
+    ]
+}

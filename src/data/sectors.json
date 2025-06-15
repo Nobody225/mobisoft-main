@@ -1,0 +1,303 @@
+{
+  "sectors": [
+    {
+      "id": "insurance",
+      "name": "Assurance",
+      "nameEn": "Insurance",
+      "description": "Assurances auto, habitation, santé et vie",
+      "icon": "shield",
+      "color": "blue",
+      "dataFile": "products.json",
+      "stats": {
+        "providers": 45,
+        "avgSavings": "25%",
+        "reviews": 12500,
+        "countries": 15
+      },
+      "isPopular": true,
+      "isTrending": true,
+      "subcategories": [
+        {
+          "id": "auto",
+          "name": "Assurance Auto",
+          "description": "Protection pour votre véhicule"
+        },
+        {
+          "id": "health",
+          "name": "Assurance Santé",
+          "description": "Couverture médicale et hospitalière"
+        },
+        {
+          "id": "home",
+          "name": "Assurance Habitation",
+          "description": "Protection de votre logement"
+        },
+        {
+          "id": "life",
+          "name": "Assurance Vie",
+          "description": "Épargne et protection familiale"
+        }
+      ]
+    },
+    {
+      "id": "banking",
+      "name": "Banque",
+      "nameEn": "Banking",
+      "description": "Comptes, crédits et solutions d'épargne",
+      "icon": "trending-up",
+      "color": "green",
+      "dataFile": "products.json",
+      "stats": {
+        "providers": 32,
+        "avgSavings": "15%",
+        "reviews": 8900,
+        "countries": 18
+      },
+      "isPopular": true,
+      "isTrending": false,
+      "subcategories": [
+        {
+          "id": "accounts",
+          "name": "Comptes Bancaires",
+          "description": "Comptes courants et d'épargne"
+        },
+        {
+          "id": "loans",
+          "name": "Crédits",
+          "description": "Prêts personnels et immobiliers"
+        },
+        {
+          "id": "cards",
+          "name": "Cartes Bancaires",
+          "description": "Cartes de crédit et de débit"
+        },
+        {
+          "id": "investment",
+          "name": "Investissement",
+          "description": "Placements et épargne"
+        }
+      ]
+    },
+    {
+      "id": "telecom",
+      "name": "Télécoms",
+      "nameEn": "Telecommunications",
+      "description": "Forfaits mobile, internet et téléphonie fixe",
+      "icon": "phone",
+      "color": "purple",
+      "dataFile": "products.json",
+      "stats": {
+        "providers": 28,
+        "avgSavings": "30%",
+        "reviews": 15600,
+        "countries": 22
+      },
+      "isPopular": true,
+      "isTrending": true,
+      "subcategories": [
+        {
+          "id": "mobile",
+          "name": "Forfaits Mobile",
+          "description": "Appels, SMS et data mobile"
+        },
+        {
+          "id": "internet",
+          "name": "Internet Fixe",
+          "description": "Connexion haut débit à domicile"
+        },
+        {
+          "id": "fixed",
+          "name": "Téléphonie Fixe",
+          "description": "Lignes fixes et services"
+        },
+        {
+          "id": "business",
+          "name": "Solutions Entreprise",
+          "description": "Télécoms pour professionnels"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "Énergie",
+      "nameEn": "Energy",
+      "description": "Électricité, gaz et solutions énergétiques durables",
+      "icon": "zap",
+      "color": "yellow",
+      "dataFile": "products.json",
+      "stats": {
+        "providers": 18,
+        "avgSavings": "20%",
+        "reviews": 6700,
+        "countries": 12
+      },
+      "isPopular": false,
+      "isTrending": true,
+      "subcategories": [
+        {
+          "id": "electricity",
+          "name": "Électricité",
+          "description": "Fourniture d'électricité"
+        },
+        {
+          "id": "gas",
+          "name": "Gaz",
+          "description": "Gaz naturel et GPL"
+        },
+        {
+          "id": "solar",
+          "name": "Énergie Solaire",
+          "description": "Panneaux et kits solaires"
+        },
+        {
+          "id": "renewable",
+          "name": "Énergies Renouvelables",
+          "description": "Solutions écologiques"
+        }
+      ]
+    },
+    {
+      "id": "real-estate",
+      "name": "Immobilier",
+      "nameEn": "Real Estate",
+      "description": "Achat, location et gestion immobilière",
+      "icon": "map-pin",
+      "color": "emerald",
+      "dataFile": "real-estate.json",
+      "stats": {
+        "providers": 156,
+        "avgSavings": "12%",
+        "reviews": 4300,
+        "countries": 20
+      },
+      "isPopular": false,
+      "isTrending": false,
+      "subcategories": [
+        {
+          "id": "residential-sale",
+          "name": "Vente Résidentielle",
+          "description": "Maisons et appartements à vendre"
+        },
+        {
+          "id": "residential-rent",
+          "name": "Location Résidentielle",
+          "description": "Logements en location"
+        },
+        {
+          "id": "commercial",
+          "name": "Immobilier Commercial",
+          "description": "Bureaux et locaux commerciaux"
+        },
+        {
+          "id": "investment",
+          "name": "Investissement Immobilier",
+          "description": "Opportunités d'investissement"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "nameEn": "Transport",
+      "description": "Véhicules, mobilité et solutions de transport",
+      "icon": "car",
+      "color": "orange",
+      "dataFile": "transport.json",
+      "stats": {
+        "providers": 67,
+        "avgSavings": "18%",
+        "reviews": 9200,
+        "countries": 16
+      },
+      "isPopular": false,
+      "isTrending": false,
+      "subcategories": [
+        {
+          "id": "car-sale",
+          "name": "Vente Automobile",
+          "description": "Voitures neuves et d'occasion"
+        },
+        {
+          "id": "car-rental",
+          "name": "Location de Véhicules",
+          "description": "Location courte et longue durée"
+        },
+        {
+          "id": "motorcycle",
+          "name": "Motos et Scooters",
+          "description": "Deux-roues motorisés"
+        },
+        {
+          "id": "commercial-vehicles",
+          "name": "Véhicules Utilitaires",
+          "description": "Camions et véhicules professionnels"
+        }
+      ]
+    }
+  ],
+  "globalStats": {
+    "totalProviders": 346,
+    "totalReviews": 57200,
+    "avgSavings": "20%",
+    "countriesCovered": 54,
+    "sectorsActive": 6,
+    "lastUpdated": "2024-11-15T10:00:00Z"
+  },
+  "popularSectors": ["insurance", "banking", "telecom"],
+  "trendingSectors": ["insurance", "telecom", "energy"],
+  "featuredSectors": ["insurance", "banking", "telecom", "real-estate"],
+  "countryAvailability": {
+    "CI": ["insurance", "banking", "telecom", "energy", "real-estate", "transport"],
+    "GH": ["insurance", "banking", "telecom", "energy", "real-estate", "transport"],
+    "NG": ["insurance", "banking", "telecom", "energy", "real-estate", "transport"],
+    "KE": ["insurance", "banking", "telecom", "energy", "real-estate", "transport"],
+    "MA": ["insurance", "banking", "telecom", "energy", "real-estate", "transport"],
+    "ZA": ["insurance", "banking", "telecom", "energy", "real-estate", "transport"],
+    "SN": ["insurance", "banking", "telecom", "energy"],
+    "TN": ["insurance", "banking", "telecom", "energy"],
+    "EG": ["insurance", "banking", "telecom", "energy"],
+    "ET": ["banking", "telecom", "energy"],
+    "UG": ["banking", "telecom", "energy"],
+    "TZ": ["banking", "telecom", "energy"],
+    "ZM": ["banking", "telecom", "energy"],
+    "BF": ["banking", "telecom"],
+    "ML": ["banking", "telecom"],
+    "NE": ["banking", "telecom"],
+    "TD": ["banking", "telecom"],
+    "CM": ["insurance", "banking", "telecom"],
+    "GA": ["insurance", "banking", "telecom"],
+    "CG": ["insurance", "banking", "telecom"]
+  },
+  "sectorGrowth": {
+    "insurance": {
+      "yearOverYear": "+15%",
+      "trend": "up",
+      "forecast": "strong"
+    },
+    "banking": {
+      "yearOverYear": "+8%",
+      "trend": "stable",
+      "forecast": "moderate"
+    },
+    "telecom": {
+      "yearOverYear": "+22%",
+      "trend": "up",
+      "forecast": "strong"
+    },
+    "energy": {
+      "yearOverYear": "+35%",
+      "trend": "up",
+      "forecast": "very-strong"
+    },
+    "real-estate": {
+      "yearOverYear": "+5%",
+      "trend": "stable",
+      "forecast": "moderate"
+    },
+    "transport": {
+      "yearOverYear": "+12%",
+      "trend": "up",
+      "forecast": "moderate"
+    }
+  }
+}

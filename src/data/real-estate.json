@@ -1,0 +1,362 @@
+{
+  "sector": {
+    "id": "real-estate",
+    "name": "Immobilier",
+    "description": "Achat, location et gestion immobilière en Afrique",
+    "icon": "map-pin",
+    "color": "emerald"
+  },
+  "properties": [
+    {
+      "id": "prop-001",
+      "title": "Villa Moderne 4 Chambres",
+      "provider": "Immobilier Plateau",
+      "country": "CI",
+      "countryName": "Côte d'Ivoire",
+      "city": "Abidjan",
+      "district": "Cocody",
+      "type": "villa",
+      "typeName": "Villa",
+      "transactionType": "sale",
+      "transactionTypeName": "Vente",
+      "price": 85000000,
+      "pricePerSqm": 42500,
+      "currency": "XOF",
+      "currencySymbol": "CFA",
+      "surface": 200,
+      "landSize": 500,
+      "rooms": 4,
+      "bathrooms": 3,
+      "parking": 2,
+      "description": "Villa moderne de standing avec piscine, jardin paysager et sécurité 24h/24 dans un quartier résidentiel prisé.",
+      "features": [
+        "Piscine privée",
+        "Jardin paysager",
+        "Sécurité 24h/24",
+        "Garage 2 voitures",
+        "Cuisine équipée",
+        "Climatisation centrale"
+      ],
+      "amenities": [
+        "École internationale à 5min",
+        "Centre commercial proche",
+        "Transport public",
+        "Hôpital de référence"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 89,
+      "images": [
+        "/images/properties/villa-cocody-1.jpg",
+        "/images/properties/villa-cocody-2.jpg",
+        "/images/properties/villa-cocody-3.jpg"
+      ],
+      "providerLogo": "/images/providers/immobilier-plateau.png",
+      "isVerified": true,
+      "isFeatured": true,
+      "availableFrom": "2024-12-01",
+      "energyClass": "B",
+      "yearBuilt": 2020
+    },
+    {
+      "id": "prop-002",
+      "title": "Appartement 3 Pièces Centre-Ville",
+      "provider": "Ghana Properties Ltd",
+      "country": "GH",
+      "countryName": "Ghana",
+      "city": "Accra",
+      "district": "Osu",
+      "type": "apartment",
+      "typeName": "Appartement",
+      "transactionType": "rent",
+      "transactionTypeName": "Location",
+      "price": 2500,
+      "pricePerSqm": 31,
+      "currency": "GHS",
+      "currencySymbol": "₵",
+      "surface": 80,
+      "landSize": null,
+      "rooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "description": "Appartement moderne au cœur d'Accra avec vue sur l'océan, proche des centres d'affaires et des commodités.",
+      "features": [
+        "Vue sur l'océan",
+        "Balcon spacieux",
+        "Cuisine moderne",
+        "Internet haut débit",
+        "Générateur de secours",
+        "Ascenseur"
+      ],
+      "amenities": [
+        "Plage à 10min à pied",
+        "Restaurants et bars",
+        "Banques et ATM",
+        "Transports en commun"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 156,
+      "images": [
+        "/images/properties/apt-osu-1.jpg",
+        "/images/properties/apt-osu-2.jpg"
+      ],
+      "providerLogo": "/images/providers/ghana-properties.png",
+      "isVerified": true,
+      "isFeatured": false,
+      "availableFrom": "2024-11-15",
+      "energyClass": "C",
+      "yearBuilt": 2018
+    },
+    {
+      "id": "prop-003",
+      "title": "Duplex de Luxe avec Piscine",
+      "provider": "Lagos Real Estate",
+      "country": "NG",
+      "countryName": "Nigeria",
+      "city": "Lagos",
+      "district": "Victoria Island",
+      "type": "duplex",
+      "typeName": "Duplex",
+      "transactionType": "sale",
+      "transactionTypeName": "Vente",
+      "price": 120000000,
+      "pricePerSqm": 400000,
+      "currency": "NGN",
+      "currencySymbol": "₦",
+      "surface": 300,
+      "landSize": 600,
+      "rooms": 5,
+      "bathrooms": 4,
+      "parking": 3,
+      "description": "Duplex de luxe dans le quartier huppé de Victoria Island avec finitions haut de gamme et équipements modernes.",
+      "features": [
+        "Piscine infinity",
+        "Gym privé",
+        "Bureau à domicile",
+        "Dressing walk-in",
+        "Système domotique",
+        "Sécurité renforcée"
+      ],
+      "amenities": [
+        "Centre commercial de luxe",
+        "Restaurants gastronomiques",
+        "Clubs privés",
+        "Héliport à proximité"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 67,
+      "images": [
+        "/images/properties/duplex-vi-1.jpg",
+        "/images/properties/duplex-vi-2.jpg",
+        "/images/properties/duplex-vi-3.jpg",
+        "/images/properties/duplex-vi-4.jpg"
+      ],
+      "providerLogo": "/images/providers/lagos-real-estate.png",
+      "isVerified": true,
+      "isFeatured": true,
+      "availableFrom": "2024-12-31",
+      "energyClass": "A",
+      "yearBuilt": 2022
+    },
+    {
+      "id": "prop-004",
+      "title": "Maison Familiale avec Jardin",
+      "provider": "Nairobi Homes",
+      "country": "KE",
+      "countryName": "Kenya",
+      "city": "Nairobi",
+      "district": "Karen",
+      "type": "house",
+      "typeName": "Maison",
+      "transactionType": "rent",
+      "transactionTypeName": "Location",
+      "price": 180000,
+      "pricePerSqm": 1200,
+      "currency": "KES",
+      "currencySymbol": "KSh",
+      "surface": 150,
+      "landSize": 800,
+      "rooms": 4,
+      "bathrooms": 3,
+      "parking": 2,
+      "description": "Maison familiale spacieuse dans le quartier verdoyant de Karen avec grand jardin et vue sur les collines.",
+      "features": [
+        "Grand jardin arboré",
+        "Cheminée",
+        "Véranda couverte",
+        "Cuisine avec îlot",
+        "Chambres avec placards",
+        "Système d'alarme"
+      ],
+      "amenities": [
+        "École internationale",
+        "Centre équestre",
+        "Golf club",
+        "Centres commerciaux"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 124,
+      "images": [
+        "/images/properties/house-karen-1.jpg",
+        "/images/properties/house-karen-2.jpg"
+      ],
+      "providerLogo": "/images/providers/nairobi-homes.png",
+      "isVerified": true,
+      "isFeatured": false,
+      "availableFrom": "2024-11-20",
+      "energyClass": "B",
+      "yearBuilt": 2015
+    },
+    {
+      "id": "prop-005",
+      "title": "Riad Traditionnel Rénové",
+      "provider": "Marrakech Immobilier",
+      "country": "MA",
+      "countryName": "Maroc",
+      "city": "Marrakech",
+      "district": "Médina",
+      "type": "riad",
+      "typeName": "Riad",
+      "transactionType": "sale",
+      "transactionTypeName": "Vente",
+      "price": 3500000,
+      "pricePerSqm": 17500,
+      "currency": "MAD",
+      "currencySymbol": "د.م.",
+      "surface": 200,
+      "landSize": 250,
+      "rooms": 6,
+      "bathrooms": 4,
+      "parking": 0,
+      "description": "Riad authentique entièrement rénové dans la médina historique avec patio central et terrasse panoramique.",
+      "features": [
+        "Patio central avec fontaine",
+        "Terrasse avec vue Atlas",
+        "Architecture traditionnelle",
+        "Hammam privé",
+        "Salon marocain",
+        "Cuisine moderne intégrée"
+      ],
+      "amenities": [
+        "Place Jemaa el-Fna à 5min",
+        "Souks traditionnels",
+        "Restaurants typiques",
+        "Monuments historiques"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 45,
+      "images": [
+        "/images/properties/riad-medina-1.jpg",
+        "/images/properties/riad-medina-2.jpg",
+        "/images/properties/riad-medina-3.jpg"
+      ],
+      "providerLogo": "/images/providers/marrakech-immobilier.png",
+      "isVerified": true,
+      "isFeatured": true,
+      "availableFrom": "2024-12-15",
+      "energyClass": "C",
+      "yearBuilt": 1890
+    },
+    {
+      "id": "prop-006",
+      "title": "Penthouse Vue Océan",
+      "provider": "Cape Town Properties",
+      "country": "ZA",
+      "countryName": "Afrique du Sud",
+      "city": "Le Cap",
+      "district": "Sea Point",
+      "type": "penthouse",
+      "typeName": "Penthouse",
+      "transactionType": "rent",
+      "transactionTypeName": "Location",
+      "price": 45000,
+      "pricePerSqm": 300,
+      "currency": "ZAR",
+      "currencySymbol": "R",
+      "surface": 150,
+      "landSize": null,
+      "rooms": 3,
+      "bathrooms": 2,
+      "parking": 2,
+      "description": "Penthouse de luxe avec vue panoramique sur l'océan Atlantique et la montagne de la Table.",
+      "features": [
+        "Vue panoramique 360°",
+        "Terrasse privée 50m²",
+        "Jacuzzi extérieur",
+        "Cuisine de chef",
+        "Dressing sur mesure",
+        "Concierge 24h/24"
+      ],
+      "amenities": [
+        "Plage privée",
+        "Restaurants étoilés",
+        "Galeries d'art",
+        "Vignobles à proximité"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 78,
+      "images": [
+        "/images/properties/penthouse-seapoint-1.jpg",
+        "/images/properties/penthouse-seapoint-2.jpg"
+      ],
+      "providerLogo": "/images/providers/cape-town-properties.png",
+      "isVerified": true,
+      "isFeatured": true,
+      "availableFrom": "2024-11-30",
+      "energyClass": "A",
+      "yearBuilt": 2021
+    }
+  ],
+  "propertyTypes": [
+    {
+      "id": "villa",
+      "name": "Villa",
+      "icon": "home",
+      "description": "Maisons individuelles de standing"
+    },
+    {
+      "id": "apartment",
+      "name": "Appartement",
+      "icon": "building",
+      "description": "Logements en immeuble"
+    },
+    {
+      "id": "duplex",
+      "name": "Duplex",
+      "icon": "building-2",
+      "description": "Logements sur deux niveaux"
+    },
+    {
+      "id": "house",
+      "name": "Maison",
+      "icon": "home",
+      "description": "Maisons familiales"
+    },
+    {
+      "id": "riad",
+      "name": "Riad",
+      "icon": "castle",
+      "description": "Maisons traditionnelles marocaines"
+    },
+    {
+      "id": "penthouse",
+      "name": "Penthouse",
+      "icon": "crown",
+      "description": "Appartements de luxe en dernier étage"
+    }
+  ],
+  "transactionTypes": [
+    {
+      "id": "sale",
+      "name": "Vente",
+      "icon": "tag",
+      "description": "Achat de propriété"
+    },
+    {
+      "id": "rent",
+      "name": "Location",
+      "icon": "key",
+      "description": "Location de propriété"
+    }
+  ],
+  "featuredProperties": ["prop-001", "prop-003", "prop-005", "prop-006"]
+}

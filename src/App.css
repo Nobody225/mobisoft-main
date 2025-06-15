@@ -1,0 +1,116 @@
+/* Styles personnalisés pour AfricaHub */
+:root {
+    /* Couleurs personnalisées AfricaHub */
+    --africahub-primary: #294467;
+    --africahub-primary-dark: #1e3a5f;
+    --africahub-primary-light: #3a5a7a;
+    --africahub-accent: #f97316; /* orange-500 */
+    --africahub-accent-hover: #ea580c; /* orange-600 */
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Amélioration des transitions */
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+/* Styles pour les cartes avec effet hover */
+.card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les boutons avec effet de pulsation */
+.btn-pulse:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Amélioration de la lisibilité */
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les liens avec effet underline */
+.link-underline {
+    position: relative;
+    text-decoration: none;
+}
+
+.link-underline::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.link-underline:hover::after {
+    width: 100%;
+}
+
+/* Classes utilitaires pour les couleurs AfricaHub */
+.bg-africahub-primary {
+    background-color: var(--africahub-primary);
+}
+
+.bg-africahub-primary-dark {
+    background-color: var(--africahub-primary-dark);
+}
+
+.bg-africahub-primary-light {
+    background-color: var(--africahub-primary-light);
+}
+
+.text-africahub-primary {
+    color: var(--africahub-primary);
+}
+
+.border-africahub-primary {
+    border-color: var(--africahub-primary);
+}
+
+/* Effet hover pour les boutons AfricaHub */
+.btn-africahub {
+    background-color: var(--africahub-primary);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-africahub:hover {
+    background-color: var(--africahub-primary-dark);
+}
+
+/* Gradient personnalisé AfricaHub */
+.bg-gradient-africahub {
+    background: linear-gradient(
+        to bottom right,
+        var(--africahub-primary),
+        var(--africahub-primary-dark),
+        #2563eb
+    );
+}
