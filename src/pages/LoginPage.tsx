@@ -9,7 +9,7 @@ import { Globe, UserPlus, ArrowRight, Shield, Zap, Sparkles } from 'lucide-react
 
 export default function LoginPage() {
   const navigate = useNavigate();
-  const { login, signInWithGoogle } = useAuth();
+  const { login, signInWithGoogle, user } = useAuth();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [formData, setFormData] = useState({
@@ -32,7 +32,23 @@ export default function LoginPage() {
 
     try {
       await login(formData.email, formData.password);
-      navigate('/');
+      if (user) {
+        switch (user.role) {
+          case 'merchant':
+            navigate('/merchant/dashboard');
+            break;
+          case 'admin':
+            navigate('/admin/dashboard');
+            break;
+          case 'user':
+            navigate('/user/dashboard');
+            break;
+          default:
+            navigate('/');
+        }
+      } else {
+        navigate('/');
+      }
     } catch (err) {
       setError('Email ou mot de passe incorrect');
     } finally {
@@ -46,7 +62,23 @@ export default function LoginPage() {
 
     try {
       await signInWithGoogle();
-      navigate('/');
+      if (user) {
+        switch (user.role) {
+          case 'merchant':
+            navigate('/merchant/dashboard');
+            break;
+          case 'admin':
+            navigate('/admin/dashboard');
+            break;
+          case 'user':
+            navigate('/user/dashboard');
+            break;
+          default:
+            navigate('/');
+        }
+      } else {
+        navigate('/');
+      }
     } catch (err) {
       setError('Erreur lors de la connexion avec Google');
     } finally {
